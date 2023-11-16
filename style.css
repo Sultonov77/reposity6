@@ -1,0 +1,74 @@
+body{
+    background-color:rgba(56, 26, 66, 1);
+} 
+.container{
+    width: 100%;
+    max-width: 1140px;
+    margin:0 auto;
+}
+.header{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    padding-right: 300px;
+    padding-left: 300px;
+}
+.top{color: #FFF;
+    font-family: Rubik;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 150%;
+    text-transform: uppercase;    
+}
+.usa{
+    color: #FFF;
+font-family: Rubik;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: 150%; /* 24px */
+}
+.flag{
+    width: 26px;
+height: 26px;
+flex-shrink: 0;
+}
+.hero{
+background: #2D1436;
+flex-shrink: 0;
+display: flex;
+justify-content: space-evenly;
+align-items: center;
+}
+p{
+    color: #FFF;
+    font-family: Rubik;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 150%;
+}
+ul{
+  list-style: none;
+display: flex;
+justify-content: space-evenly;
+text-align: center;
+}
+.contact{
+background-color: #2D1436;
+color: #ecf3f7;
+font-family: rubik;
+justify-content: center;}
+
+ .end{
+    color: #FFF;
+font-family: Rubik;
+font-size: 14px;
+font-style: normal;
+font-weight: 400;
+line-height: 150%;
+background-color: rgba(56, 26, 66, 1);
+display: flex;
+justify-content: space-evenly;
+}
